@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-01-14T18:30:00Z",
+  "location": "Denver Metro",
+  "carrier": "Verizon",
+  "source": "field",
+
+  "priority": {
+    "wps_provisioned": true,
+    "preemption_enabled": true,
+    "verification_state": "PROVISIONED_NOT_VERIFIED"
+  },
+
+  "control_plane": {
+    "voice": "failed",
+    "sms": "delayed",
+    "ims_registered": false
+  },
+
+  "backhaul": {
+    "primary": "down",
+    "secondary": "up",
+    "failover_armed": true
+  },
+
+  "coordination": {
+    "swic_notified": false,
+    "eoc_linked": false,
+    "incident_id": ""
+  }
+}
