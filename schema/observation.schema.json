@@ -1,0 +1,30 @@
+{
+  "timestamp": "ISO-8601",
+  "location": "coarse-region",
+  "carrier": "string",
+  "source": "android|ios|windows|field|operator",
+
+  "priority": {
+    "wps_provisioned": true,
+    "preemption_enabled": true,
+    "verification_state": "NOT_PROVISIONED|PROVISIONED_NOT_VERIFIED|VERIFIED_ACTIVE"
+  },
+
+  "control_plane": {
+    "voice": "ok|failed",
+    "sms": "ok|delayed|failed",
+    "ims_registered": true
+  },
+
+  "backhaul": {
+    "primary": "up|down|unknown",
+    "secondary": "up|down|unknown",
+    "failover_armed": true
+  },
+
+  "coordination": {
+    "swic_notified": true,
+    "eoc_linked": true,
+    "incident_id": "string"
+  }
+}
