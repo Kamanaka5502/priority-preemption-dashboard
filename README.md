@@ -1,3 +1,5 @@
+Reference implementation for the Elyria Governance Layer: Mitigating LLM Coherence Collapse through hard-gated accountability logic.
+
 # Priority & Preemption Control Dashboard
 
 ## Purpose
